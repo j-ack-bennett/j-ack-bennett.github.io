@@ -1,0 +1,120 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: auto 10em;
+    background-color: #379683;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 1em;
+    font-size: 20pt;
+}
+
+#header {
+    background-color: #5cdb95;
+    padding: 2em;
+    overflow: hidden;
+}
+
+.container-top {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    text-decoration: none;
+    margin-left: 1em;
+    color: #05386b;
+    font-size: 60pt;
+    display: flex;
+}
+
+.links {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #05386b;
+    padding: 0 1em;
+    font-size: 30pt;
+}
+
+.links:hover {
+    color: #8ee4af;
+}
+
+section {
+    background: #edf5e1;
+    padding-bottom: 5em;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.blog-header {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 2em;
+    font-weight: bold;
+}
+
+.thumbnails {
+    margin-left: 15%;
+    padding-top: 4em;
+    overflow: hidden;
+}
+
+#circle {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+}
+
+.date-text {
+    margin-left: 1em;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 80%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: flex;
+}
