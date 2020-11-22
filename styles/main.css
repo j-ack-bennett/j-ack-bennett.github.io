@@ -47,7 +47,17 @@ ul {
     font-size: 30pt;
 }
 
-.links:hover {
+.sublinks {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #05386b;
+    padding: 0 1em;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.links:hover, .sublinks:hover {
     color: #8ee4af;
 }
 
@@ -60,6 +70,8 @@ h2 {
     font-size: 40px;
     text-align: center;
     padding-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 h3 {
@@ -82,7 +94,7 @@ p {
 }
 
 .thumbnails {
-    margin-left: 15%;
+    margin-left: 22.5%;
     padding-top: 4em;
     overflow: hidden;
 }
