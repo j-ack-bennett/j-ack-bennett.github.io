@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang=en>
   <head>
-    <title>Blog</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
     <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="header">
-        <nav class="container-top">
-          <h1>
-            <a class="title" href="../index.html">j-ack-bennett</a>
-          </h1>
-          <ul>
-            <li><a class="links" href="../index.html">home</a></li>
-            <li><a class="links" href="blog.html">blog</a></li>
-            <li><a class="links" href="../about.html">about</a></li>
-          </ul>
-        </nav>
-      </div>
-      <section>
-        <h2 class="blog-header">Welcome to my blog!</h2>
-        <h2>What are the best practices associated with using classes vs. ids?</h2>
-        <h3>Classes start with a '.' in CSS, whereas ids start with a '#'.</h3>
-        <h4 class="date-text">19 November 2020</h4>
-        <p>It is probably best to start off with a bit of a description as to what classes and ids are. In HTML, there is only so much we can do with the tags available. If we want a particular layout for a website, we need to use more than just basic tags. In this case, we bring in the use of classes and ids. These provide us the means to target specfic tags and alter the appearance of them through the magic of CSS.</p>
-        <p>When using classes and ids, we have to remember that classes can be used across multiple elements, whereas ids are unique and can only be used on one element within the page.</p>
-        <p>Classes and ids need functional names to apply within the element. When creating these in CSS to apply to an element in HTML, it is best to think of a name that is as short as possible and fits with the function of the element itself. For example; you want to apply an id to the footer of the page, so in this case you'd use '#footer'. You also was to apply a class to the text on the page, in this instance you may use '.description'.</p>
-        <p>When applying classes and ids to your elements, it is best to think about how these will be used. If you are wanting to manipulate more than one element on the page, then a class is the correct thing to use. Classes aren't overly unique and can be used across a page as much as you need. Ids on the other hand are unique and should only be used once on the page. My example above for a footer would be a perfect id, as most likely the footer would stay the same throughout the whole website, so would need no further manipulation at any stage.</p>
-        <p>These two screenshots show two pieces of code from my blog. One is an id applied to the header of the page, the other a class applied to multiple elements of text.</p>
-        <div class="row">
-          <div class="column">
-            <img class="center" src="../images/header-scrshot.png" alt="Header id screenshot">
-          </div>
-          <div class="column">
-            <img class="center" src="../images/class-scrshot.png" alt="Text class screenshot">
-          </div>
-        </div>
-        <h2>The Story of Te Houtaewa</h2>
-        <h3>E kore e mau i a koe, he wae kai pakiaka. <em>A foot accustomed to running over roots makes the speediest runner.</em></h3>
-        <h4 class="date-text">18 November 2020</h4>
-        <p>Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.</p>
-        <p>Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.</p>
-        <p>While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.</p>
+      <nav class="container-top">
+        <h1>
+          <a class="title" href="../index.html">j-ack-bennett</a>
+        </h1>
+        <ul>
+          <li><a class="links" href="../index.html">home</a></li>
+          <li><a class="links" href="blog.html">blog</a></li>
+          <li><a class="links" href="../about.html">about</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section>
+      <h2 class="blog-header">Welcome to my blog!</h2>
+      <nav>
+        <ul>
+          <a class="sublinks" href="sprint1-cultural.html"><li>Sprint 1 Cultural</li></a>
+          <a class="sublinks" href="sprint2-cultural.html"><li>Sprint 2 Cultural</li></a>
+          <a class="sublinks"><li>Sprint 3 Cultural</li></a>
+          <a class="sublinks"><li>Sprint 4 Cultural</li></a>
+          <a class="sublinks"><li>Sprint 5 Cultural</li></a>
+        </ul>
+        <ul>
+          <a class="sublinks" href="sprint1-technical.html"><li>Sprint 1 Technical</li></a>
+          <a class="sublinks" href="sprint2-technical.html"><li>Sprint 2 Technical</li></a>
+          <a class="sublinks"><li>Sprint 3 Technical</li></a>
+          <a class="sublinks"><li>Sprint 4 Technical</li></a>
+          <a class="sublinks"><li>Sprint 5 Technical</li></a>
+        </ul>
+      </nav>
     </section>
   </body>
