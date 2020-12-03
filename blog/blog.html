@@ -2,42 +2,42 @@
 <html lang=en>
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/main.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div id="header">
-      <nav class="container-top">
-        <h1>
-          <a class="title" href="../index.html">j-ack-bennett</a>
-        </h1>
-        <ul>
-          <li><a class="links" href="../index.html">home</a></li>
-          <li><a class="links" href="blog.html">blog</a></li>
-          <li><a class="links" href="../about.html">about</a></li>
-        </ul>
-      </nav>
-    </div>
-    <section>
-      <h2 class="blog-header">Welcome to my blog!</h2>
-      <nav>
-        <ul>
-          <a class="sublinks" href="sprint1-cultural.html"><li>Sprint 1 Cultural</li></a>
-          <a class="sublinks" href="sprint2-cultural.html"><li>Sprint 2 Cultural</li></a>
-          <a class="sublinks" href="sprint3-cultural.html"><li>Sprint 3 Cultural</li></a>
-          <a class="sublinks" href="sprint4-cultural.html"><li>Sprint 4 Cultural</li></a>
-          <a class="sublinks"><li>Sprint 5 Cultural</li></a>
-        </ul>
-        <ul>
-          <a class="sublinks" href="sprint1-technical.html"><li>Sprint 1 Technical</li></a>
-          <a class="sublinks" href="sprint2-technical.html"><li>Sprint 2 Technical</li></a>
-          <a class="sublinks" href="sprint3-technical.html"><li>Sprint 3 Technical</li></a>
-          <a class="sublinks"><li>Sprint 4 Technical</li></a>
-          <a class="sublinks"><li>Sprint 5 Technical</li></a>
-        </ul>
+<body>
+  <nav id="top-container">
+    <h1><a class="logo-top" href="../index.html">j-ack-bennett</a></h1>
+    <ul>
+      <li><a class="links" href="../index.html">home</a></li>
+      <li><a class="links" href="blog.html">blog</a></li>
+      <li><a class="links" href="../about.html">about</a></li>
+    </ul>
+  </nav>
+  <div class="wrapper">
+    <section class="info">
+      <h2 class="blog-header">Welcome!</h2>
+      <nav id="blog-container">
+        <div class="blog-links">
+          <ul class="sprint-column1">
+            <a href="sprint1-cultural.html"><li>Sprint 1 Cultural</li></a>
+            <a href="sprint2-cultural.html"><li>Sprint 2 Cultural</li></a>
+            <a href="sprint3-cultural.html"><li>Sprint 3 Cultural</li></a>
+            <a href="sprint4-cultural.html"><li>Sprint 4 Cultural</li></a>
+            <a href=""><li>Sprint 5 Cultural</li></a>
+          </ul>
+          <div class = "verticalLine"></div> 
+          <ul class="sprint-column2">
+            <a href="sprint1-technical.html"><li>Sprint 1 Technical</li></a>
+            <a href="sprint2-technical.html"><li>Sprint 2 Technical</li></a>
+            <a href="sprint3-technical.html"><li>Sprint 3 Technical</li></a>
+            <a href=""><li>Sprint 4 Technical</li></a>
+            <a href=""><li>Sprint 5 Technical</li></a>
+          </ul>
+        </div>  
       </nav>
     </section>
-  </body>
+  </div>
+</body>
