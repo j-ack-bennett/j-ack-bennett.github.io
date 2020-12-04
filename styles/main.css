@@ -125,6 +125,11 @@
   margin-bottom: 120px;
 }
 
+.sprint-info h1 {
+  padding: 30px;
+  font-size: 50px;
+}
+
 .sprint-info h2 {
   padding: 30px;
   font-size: 30px;
@@ -143,10 +148,20 @@
   font-size: 20px;
 }
 
+.sprint-info h5 {
+  padding: 20px;
+  font-size: 25px;
+}
+
 .sprint-info p {
   padding: 10px;
   margin: 0 100px;
   font-size: 20px;
+}
+
+.text-red {
+  color: red;
+  background-color: black;
 }
 
 .video-container {
